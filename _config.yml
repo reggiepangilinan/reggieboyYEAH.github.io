@@ -1,7 +1,7 @@
 url: https://reggieboyYEAH.github.io
 
 # Site settings
-brand : "{reggiepangilinan}"
+brand: "{reggiepangilinan}"
 title:  Reggie Pangilinan Blog + Portfolio
 email: reggiepangilinan@gmail.com
 description: "Reggie Pangilinan is a Full-Stack Developer / Consultant from Makati CIty, Philippines"
@@ -12,11 +12,27 @@ color:
   secondary: 000
   secondary-dark: 000
 
-
+# Contact Info
+author: "Reggie Pangilinan"
+position: "Head of Development Dept / Full Stack Engineer"
+company: "BizBox Inc"
 # Postal address (add as many lines as necessary)
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+  - line: 1103 ANTEL 2000 Corporate Centre
+  - line: 121 Valero St. Salcedo Village
+  - line: Makati City, Philippines
+
+
+
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: facebook
+    url: https://www.facebook.com/reggiepangilinan
+  - title: github
+    url: http://github.com/reggieboyYEAH
+  - title: linkedin
+    url: https://au.linkedin.com/in/reggie-pangilinan-60525414
 
 # Build settings
 markdown: kramdown
