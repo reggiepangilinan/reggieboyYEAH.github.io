@@ -1,7 +1,8 @@
 url: https://reggieboyYEAH.github.io
 
 # Site settings
-title: Reggie Pangilinan Blog + Portfolio
+brand : "{reggiepangilinan}"
+title:  Reggie Pangilinan Blog + Portfolio
 email: reggiepangilinan@gmail.com
 description: "Reggie Pangilinan is a Full-Stack Developer / Consultant from Makati CIty, Philippines"
 

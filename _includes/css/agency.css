@@ -142,30 +142,29 @@ fieldset[disabled] .btn-xl.active {
   background-color: white;
 }
 .navbar-default {
-  background-color: #222222;
+  background-color: white;
   border-color: transparent;
 }
 .navbar-default .navbar-brand {
-  color: #45afd1;
   font-family: "Montserrat", sans-serif;
-  font-weight: 900;
-  color: #fff;
+  font-weight: 100;
+  color: #222222;
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand.active {
-  color: white);
+  color: #222222;
 }
 .navbar-default .navbar-collapse {
   border-color: rgba(255, 255, 255, 0.02);
 }
 .navbar-default .navbar-toggle {
-  background-color: #222222;
+  background-color: transparent;
   border-color: #f7f7f7;
 }
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: white;
+  background-color: #222222;
 }
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
@@ -176,16 +175,16 @@ fieldset[disabled] .btn-xl.active {
   text-transform: uppercase;
   font-weight: 400;
   letter-spacing: 1px;
-  color: white;
+  color: #222222;
 }
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
-  color: white;
+  color: #222222;
   outline: none;
 }
 .navbar-default .navbar-nav > .active > a {
   border-radius: 0;
-  color: white;
+  color: #222222;
   background-color: #45afd1;
 }
 .navbar-default .navbar-nav > .active > a:hover,
@@ -212,15 +211,21 @@ fieldset[disabled] .btn-xl.active {
     border-radius: 3px;
   }
   .navbar-default.navbar-shrink {
-    background-color: #222222;
+    background-color: white;
     padding: 10px 0;
   }
   .navbar-default.navbar-shrink .navbar-brand {
     font-size: 1.5em;
   }
 }
-header {
-  background-image: url('img/header-bg.jpg');
+body,
+html {
+  height: 100%;
+}
+.hero {
+  height: 100%;
+  background-image: url('img/header-bg.jpg'), url('img/header-bg2.jpg'), linear-gradient(#ffffff, #000000);
+  background-blend-mode: overlay,screen,luminosity;
   background-repeat: none;
   background-attachment: scroll;
   background-position: center center;
@@ -229,46 +234,43 @@ header {
   background-size: cover;
   -o-background-size: cover;
   text-align: center;
-  color: white;
+  color: #222222;
 }
-header .intro-text {
+.hero .intro-text {
   padding-top: 100px;
-  padding-bottom: 50px;
 }
-header .intro-text .intro-lead-in {
+.hero .intro-text .intro-lead-in {
   font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: italic;
   font-size: 22px;
   line-height: 22px;
   margin-bottom: 25px;
 }
-header .intro-text .intro-heading {
+.hero .intro-text .intro-heading {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 50px;
   line-height: 50px;
-  margin-bottom: 25px;
 }
 @media (min-width: 768px) {
-  header .intro-text {
+  .hero .intro-text {
     padding-top: 300px;
     padding-bottom: 200px;
   }
-  header .intro-text .intro-lead-in {
+  .hero .intro-text .intro-lead-in {
     font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style: italic;
     font-size: 40px;
     line-height: 40px;
     margin-bottom: 25px;
   }
-  header .intro-text .intro-heading {
+  .hero .intro-text .intro-heading {
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 75px;
     line-height: 75px;
-    margin-bottom: 50px;
   }
 }
 section {
