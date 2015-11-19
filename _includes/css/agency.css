@@ -96,8 +96,8 @@ fieldset[disabled] .btn-primary.active {
 }
 .btn-xl {
   color: white;
-  background-color: #45afd1;
-  border-color: #45afd1;
+  background-color: #222222;
+  border-color: #222222;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
@@ -111,8 +111,8 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
   color: white;
-  background-color: #2d95b6;
-  border-color: #2b8eae;
+  background-color: #080808;
+  border-color: #030303;
 }
 .btn-xl:active,
 .btn-xl.active,
@@ -134,11 +134,11 @@ fieldset[disabled] .btn-xl:active,
 .btn-xl.disabled.active,
 .btn-xl[disabled].active,
 fieldset[disabled] .btn-xl.active {
-  background-color: #45afd1;
-  border-color: #45afd1;
+  background-color: #222222;
+  border-color: #222222;
 }
 .btn-xl .badge {
-  color: #45afd1;
+  color: #222222;
   background-color: white;
 }
 .navbar-default {
@@ -168,7 +168,7 @@ fieldset[disabled] .btn-xl.active {
 }
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-  background-color: #45afd1;
+  background-color: #f7f7f7;
 }
 .navbar-default .nav li a {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -184,13 +184,13 @@ fieldset[disabled] .btn-xl.active {
 }
 .navbar-default .navbar-nav > .active > a {
   border-radius: 0;
-  color: #222222;
-  background-color: #45afd1;
+  color: #fff;
+  background-color: #222222;
 }
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
   color: white;
-  background-color: #2d95b6;
+  background-color: #080808;
 }
 @media (min-width: 768px) {
   .navbar-default {
@@ -224,8 +224,8 @@ html {
 }
 .hero {
   height: 100%;
-  background-image: url('img/header-bg.jpg'), url('img/header-bg2.jpg'), linear-gradient(#ffffff, #000000);
-  background-blend-mode: overlay,screen,luminosity;
+  background: url('img/header-bg.jpg'), url('img/header-bg2.jpg'), linear-gradient(#ffffff, #000000);
+  background-blend-mode: screen;
   background-repeat: none;
   background-attachment: scroll;
   background-position: center center;
@@ -417,7 +417,7 @@ section h3.section-subheading {
   height: 80px;
   position: absolute;
   z-index: 100;
-  background-color: #45afd1;
+  background-color: #222222;
   color: white;
   border-radius: 100%;
   border: 7px solid #f1f1f1;
