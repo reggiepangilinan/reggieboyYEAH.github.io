@@ -1,7 +1,7 @@
 url: https://reggieboyYEAH.github.io
 
 # Site settings
-title: UNIT64o
+title: Reggie Pangilinan Blog + Portfolio
 email: reggiepangilinan@gmail.com
 description: "Reggie Pangilinan is a Full-Stack Developer / Consultant from Makati CIty, Philippines"
 
@@ -11,53 +11,6 @@ color:
   secondary: 000
   secondary-dark: 000
 
-# Team names, titles and social links
-people:
-- name: Reggie Pangilinan
-  pic: 1
-  position: Lead Designer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: stack-overflow
-      url: #
-
-- name: Klarisse Talacay
-  pic: 2
-  position: Lead Marketer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: linkedin
-      url: #
-
-#- name: Diana Petersen
-#  pic: 3
-#  position: Lead Developer
-#  social:
-#    - title: twitter
-#      url: #
-#    - title: facebook
-#      url: #
-#    - title: google-plus
-#      url: #
-
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
-social:
-  - title: twitter
-    url: http://twitter.com/jekyllrb
-  - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket 
-    url: http://bitbucket.org/jekyll
-  - title: github
-    url: http://github.com/jekyll
 
 # Postal address (add as many lines as necessary)
 address:
@@ -67,7 +20,3 @@ address:
 # Build settings
 markdown: kramdown
 permalink: pretty
-
-# Projects by UNIT64o
-collections:
-- projects
