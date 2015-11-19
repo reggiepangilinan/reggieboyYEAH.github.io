@@ -1,11 +1,11 @@
-Reggie Pangilinan
-====================
 Personal Blog and Portfolio
+===========================
+Reggie Pangilinan is a Full-stack developer /Consultant from Makati City,Philippines
 
-Reggie Pangilinan is a Full-stack developer from Makati City,Philippines
 
-#Current using
-Front-end
+Stack
+===========================
+#Front-end
  - HTML5 
  - CSS3 - LESS | SASS
  - JS / jQuery
@@ -13,12 +13,12 @@ Front-end
  - Bootstrap
  - + Lots of open-source library for my front-end workflow ;)  
  
- Backend
+#Backend
  - ASP.NET / C#
  - SQL Server
  - MySQL
- - + Lots of open-source library for my backend-end workflow ;) 
-  
+ - NodeJS
+ - + Lots of open-source library for my backend-end workflow ;)  
 
 =========
-For more details, visit [website](http://reggieboyYEAH.github.io/)
+For more details, visit my [website](http://reggieboyYEAH.github.io/)
